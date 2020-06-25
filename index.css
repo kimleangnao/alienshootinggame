@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    background-color: #101215;
+}
+.title-game {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Oxanium', cursive;
+    MARGIN-TOP: 2EM;
+    color: white;
+}
+
+.score-div {
+    width: 62.5em;
+    height: 2em;
+    margin: 3em auto 0;
+    color: white;
+    display: flex;
+}
+.score {
+    width: 50%;
+    height: 100%;
+    font-size: 1.5em;
+    font-family: 'Oxanium', cursive;
+}
+.highscore {
+    width: 50%;
+    height: 100%;
+    font-size: 1.5em;
+    font-family: 'Oxanium', cursive;
+}
+
+#space-canvas { 
+    background-color: rgb(228, 228, 225);
+    display: block;
+    margin: 0.3em auto;
+    transition: all 1s ease;
+}
